@@ -63,7 +63,7 @@ foreach ($json as $url => $data) {
 			echo "</pre></section>";
 		}
 	}else{
-		echo " ".$error[1];
+		echo " ".$data['error'][0];
 	}
 	echo "</article>";
 	$num++;
